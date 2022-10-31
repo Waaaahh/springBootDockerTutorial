@@ -1,0 +1,8 @@
+./gradlew build # 그래들 빌드 커맨드 => jar 파일을 만들어줌
+java -jar build/libs/<jar 이름>.jar jar 파일 실행 커맨드
+
+docker build -t <이름>
+docker image ls # 이미지 목록 보이기
+docker run -p 8080:8080 <이미지 이름>
+
+
